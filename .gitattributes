@@ -1,4 +1,0 @@
-*.ext filter=lfs diff=lfs merge=lfs -text
-Data/* filter=lfs diff=lfs merge=lfs -text
-Land_use/* filter=lfs diff=lfs merge=lfs -text
-Land_a/* filter=lfs diff=lfs merge=lfs -text
