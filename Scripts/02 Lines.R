@@ -74,21 +74,21 @@ p <- ggplot() +
         axis.title = element_blank(),
         legend.position = "none",
         panel.background = element_rect(fill = "#ede5da", color = NA))+
-  # top-right note
-  annotate("text", x = 2695000, y = 525000, label = "#30 day map challenge | Day2 - Line", 
+  # left side note
+  annotate("text", x = 2634000, y = 339000, label = "#30 day map challenge | Day2 - Line", 
            hjust = 0, vjust = 1, size = 7, color = "#5C3B31", fontface = "bold", alpha = 0.7)+
-  annotate("text", x = 2695000, y = 511000, label = "Data: OpenDataPhilly, SRTM, Delaware River Basin Commission\nAuthor: Jingmiao Fei  | Tool: R | 11.02.2024", 
+  annotate("text", x = 2634000, y = 327000, label = "Data: OpenDataPhilly, SRTM, Delaware River Basin Commission\nAuthor: Jingmiao Fei  | Tool: R | 11.02.2024", 
            hjust = 0, vjust = 1, size = 4, color = "#5C3B31", alpha = 0.7)+
   # title
-  annotate("text", x = 2630000, y = 352000, label = "The Delaware River", 
-           hjust = 0, vjust = 1, size = 12.5, color = "#5C3B31", fontface = "bold.italic", alpha = 0.8)+
+  annotate("text", x = 2700000, y = 520000, label = "The Delaware River", 
+           hjust = 0, vjust = 1, size = 12, color = "#5C3B31", fontface = "bold.italic", alpha = 0.7)+
   # Philadelphia label
-  annotate("text", x = 2636000, y = 240000, label = "Philadelphia", 
-           hjust = 0, vjust = 1, size = 4, color = "#794844", alpha = 0.6, fontface = "bold.italic")+
+  annotate("text", x = 2672800, y = 225000, label = "Philadelphia", 
+           hjust = 0, vjust = 1, size = 4, color = "#794844", alpha = 0.6, fontface = "italic")+
   # introduction of delaware river
-  annotate("text", x = 2715000, y = 480000, label = "The Delaware River is a 330-mile waterway. \n      As the longest undammed free-flowing\n         river in the Eastern U.S., it forms the\n            border between Pennsylvania and \n              New Jersey. \n               It is vital for local ecosystems and\n               communities.", 
+  annotate("text", x = 2715000, y = 488000, label = "The Delaware River is a 330-mile waterway. \n      As the longest undammed free-flowing\n         river in the Eastern U.S., it forms the\n            border between Pennsylvania and \n              New Jersey. \n               It is vital for local ecosystems and\n               communities.", 
            hjust = 0, vjust = 1, size = 5, color = "#5C3B31", alpha = 0.7, fontface = "bold.italic")+
-  annotate("text", x = 2760000, y = 420500, label = "(Delaware River Basin Commission)", 
+  annotate("text", x = 2760000, y = 428500, label = "(Delaware River Basin Commission)", 
            hjust = 0, vjust = 1, size = 4, color = "#5C3B31", alpha = 0.7)+       
   annotation_scale(location = "br", 
                    width_hint = 0.5,
